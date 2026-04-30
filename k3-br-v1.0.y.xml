@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="git@github.com:spacemit-com" />
+  <default revision="k3-br-v1.0.y" remote="origin" sync-j="8" />
+  <project path="bsp-src/linux-6.18" name="linux-6.18" />
+  <project path="bsp-src/opensbi" name="opensbi" />
+  <project path="bsp-src/uboot-2022.10" name="uboot" />
+  <project path="buildroot" name="buildroot" />
+  <project path="buildroot-ext" name="buildroot-ext" />
+  <project path="package-src/drm-test" name="drm-test" />
+  <project path="package-src/esos" name="esos" />
+  <project path="package-src/esos/components/esos-lite" name="esos-lite" />
+  <project path="package-src/factorytest" name="factorytest" />
+  <project path="package-src/glmark2" name="glmark2" />
+  <project path="package-src/gpu-test" name="gpu-test" />
+  <project path="package-src/img-gpu-powervr" name="img-gpu-powervr" />
+  <project path="package-src/k3x-cam" name="k3x-cam" />
+  <project path="package-src/k3x-vpu-firmware" name="k3x-vpu-firmware" />
+  <project path="package-src/k3x-vpu-test" name="k3x-vpu-test" />
+  <project path="package-src/mesa" name="mesa" />
+  <project path="package-src/mpp" name="mpp" />
+  <project path="package-src/rtk_hciattach" name="rtk_hciattach" />
+  <project path="package-src/v2d-test" name="v2d-test" />
+  <project path="scripts" name="scripts">
+      <copyfile src="Makefile" dest="Makefile" />
+  </project>
+</manifest>
