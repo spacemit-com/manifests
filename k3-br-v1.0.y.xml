@@ -4,7 +4,7 @@
   <default revision="k3-br-v1.0.y" remote="origin" sync-j="8" />
   <project path="bsp-src/linux-6.18" name="linux-6.18" />
   <project path="bsp-src/opensbi" name="opensbi" />
-  <project path="bsp-src/uboot-2022.10" name="uboot" />
+  <project path="bsp-src/uboot-2022.10" name="uboot-2022.10" />
   <project path="buildroot" name="buildroot" />
   <project path="buildroot-ext" name="buildroot-ext" />
   <project path="package-src/drm-test" name="drm-test" />
